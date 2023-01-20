@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/eu.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+
+    <title>Portfolio - Jean Carlos</title>
+</head>
+
+<body>
+    <!--------------------------------------------------------------------------------------->
+    <section id="menu">
+        <nav class="menu">
+            <a href="" class="logo">Jean Carlos</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#part0">Sobre mim</a></li>
+                <li class="nav-item"><a href="#part1">Skills</a></li>
+                <li class="nav-item"><a href="#part2">Projetos</a></li>
+                <li class="nav-item"><a href="#part3">Contato</a></li>
+                <li class="nav-item"><a target="_blank" href="https://github.com/jeanfiorentin">GitHub</a></li>
+
+                <li class="nav-item"><a class="CV" href="./curriculo/curriculo-jean-carlos.pdf" download>Download CV</a>
+                </li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </section>
+    <!--------------------------------------------------------------------------------------->
+    <section id="part0">
+        <section id="eu">
+
+            <div id="infos">
+                <h1>Jean Carlos Cordeiro Fiorentin</h1>
+                <p>Desenvolvedor Front-end - HTML | CSS | JS <br>
+                    Estudando Python (Back-end)</p>
+            </div>
+
+            <div id="euimg">
+                <img src="./img/eu.png" alt="">
+            </div>
+
+        </section>
+    </section>
+    <!--------------------------------------------------------------------------------------->
+    <section id="part1">
+        <div>
+            <h1>SKILLS</h1>
+        </div>
+
+
+        <section id="skills">
+
+
+            <div class="skill">
+                <img src="./img/html.png" alt="">
+                <h4>HTML</h4>
+                <p>Linguagem de marcacao usada para termos a base do site WEB.</p>
+            </div>
+
+            <div class="skill">
+                <img src="./img/css.png" alt="">
+                <h4>CSS</h4>
+                <p>O CSS e usado para a estilizacao do site WEB.</p>
+            </div>
+
+            <div class="skill">
+                <img src="./img/js.png" alt="">
+                <h4>JavaScript</h4>
+                <p>usado para interacao do usuario com a pagina WEB</p>
+            </div>
+
+        </section>
+    </section>
+    <!--------------------------------------------------------------------------------------->
+    <section id="part2">
+        <div>
+            <h1>PROJETOS</h1>
+        </div>
+
+        <section id="projetos">
+
+            <div class="projeto">
+                <h3>Molozi.bio - 1 <br> (HTML|CSS)</h3>
+                <img src="./img/eu4.png" alt="">
+                <a target="_blank" href="https://fullstackmaster.netlify.app/">Ver projeto</a>
+            </div>
+
+            <div class="projeto">
+                <h3>Molozi.bio - 2 <br>(HTML | CSS)</h3>
+                <img src="./img/eu2.png" alt="">
+                <a target="_blank" href="https://antiotario.netlify.app/">Ver projeto</a>
+            </div>
+
+            <div class="projeto">
+                <h3>Gerador de e-mail (Python)</h3>
+                <img src="./img/eu3.png" alt=""> <br>
+                <a target="_blank" href="https://github.com/jeanfiorentin/gerador_de_email">Ver projeto</a>
+            </div>
+
+            <div class="projeto">
+                <h3>Cadastro de usuarios (Python)</h3>
+                <img src="./img/eu.png" alt="">
+                <a target="_blank" href="https://github.com/jeanfiorentin/Dados-Pessoais---Python">Ver projeto</a>
+            </div>
+
+        </section>
+    </section>
+    <!--------------------------------------------------------------------------------------->
+
+    <section id="part3">
+        <div>
+            <h1>CONTATO</h1>
+        </div>
+
+        <section id="contato">
+
+            <div id="email">
+                <section>
+                    <form action="https://formsubmit.co/jeancarloscordeirofiorentin@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="https://eujeancarlosportfolio.netlify.app/">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_autoresponse"
+                            value="Obrigado pelo contato, logo retornaremos sua mensagem!">
+
+                        <label>Nome</label>
+                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="on" required>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Digite seu email" required>
+                        <label>Mensagem</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
+                            required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+            </div>
+        </section>
+
+    </section>
+    </section>
+    <!--------------------------------------------------------------------------------------->
+    <footer>
+        <p>Site desenvolvido por <a target="_blank"
+                href="https://www.instagram.com/eujeancordeiro_/">@eu.jeancordeiro_</a> </p>
+
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/scroll.js"></script>
+
+</body>
+
+</html>

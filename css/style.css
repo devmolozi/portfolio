@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #6a7dd6 #000028;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000028;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #6a7dd6;
+    border-radius: 10px;
+    border: 3px solid #6a7dd6;
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    float: right;
+    text-align: right;
+}
+
+#menu {
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+#menu nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 30px 0;
+    background-color: #000028;
+}
+
+li {
+    list-style: none;
+}
+
+#menu nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #6a7dd6;
+}
+
+#menu nav a:hover {
+    transition: 0.3s;
+    color: #8c9bf8;
+}
+
+
+#eu {
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #000028;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    display: inline-flex;
+}
+
+#infos {
+    padding: 20px;
+    text-align: center;
+}
+
+#infos h1,
+p {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 27px;
+    color: #6a7dd6;
+}
+
+p {
+    font-size: 18px;
+    color: #4860b5;
+}
+
+#euimg {
+    padding: 20px;
+    text-align: center;
+}
+
+#eu img {
+    background-color: white;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 100%;
+    width: 250px;
+}
+
+.skill img {
+    width: 100px;
+    border-radius: none;
+    background-color: none;
+}
+
+.skill h4 {
+    color: #4860b5;
+    font-weight: 800;
+}
+
+.skill {
+    width: 400px;
+    padding: 20px 0;
+}
+
+#skills {
+    padding: 50px 50px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#projetos {
+    background-color: #000028;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.projeto {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    display: block;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+}
+
+.projeto h3 {
+    color: #4860b5;
+}
+
+.projeto img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0px 20px 20px 0px;
+}
+
+.projeto a {
+    font-weight: 700;
+    background-color: white;
+    color: #4860b5;
+    padding: 10px 50px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    transition: 0.3s;
+    background-color: #f5f5f5;
+
+}
+
+
+
+#curriculo {
+    align-items: center;
+    justify-content: center;
+}
+
+.curr {
+    padding: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+#curriculo a {
+    border-radius: 15px;
+    padding: 10px 44px;
+    text-decoration: none;
+    background-color: #000028;
+    font-weight: 700;
+    color: white;
+}
+
+#curriculo a:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #4860b5;
+}
+
+#contato {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#part0 {
+    padding: 50px 0;
+    background-color: #000028;
+}
+
+#part1 {
+    padding: 50px 0;
+    background-color: white;
+}
+
+#part2 {
+    padding: 50px 0;
+    background-color: #000028;
+}
+
+#part3 {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+footer {
+    padding: 50px 0 25px 0;
+    background-color: #000028;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+
+
+#email {
+    width: 50%;
+}
+
+#email section {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 5px;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+#email section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#email form label {
+    color: #4860b5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+#email form input {
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border: 1px solid #000028;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+#email form input:focus {
+    border-radius: 16px;
+}
+
+#email form textarea {
+    border-radius: 5px;
+    border: 1px solid #000028;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+#email form textarea:focus {
+    border-radius: 16px;
+}
+
+#email form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #000028;
+    color: #000028;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+#email form button:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    #contato {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #email section {
+        margin: 0;
+        padding: 0px 0px;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.CV {
+    background-color: transparent;
+    border: 1px solid #4860b5;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.hamburguer {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #4860b5;
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .hamburguer {
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        background-color: #000028;
+        border-radius: 0 0 20px 20px;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
